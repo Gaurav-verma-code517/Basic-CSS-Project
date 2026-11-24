@@ -1,0 +1,2 @@
+# Readme
+A simple sidebar navigation project built using HTML and CSS. Features include a hamburger menu, animated sidebar toggle using CSS checkbox hack, hover effects, Flexbox layouts, and Font Awesome icons. Created as a CSS practice project.
