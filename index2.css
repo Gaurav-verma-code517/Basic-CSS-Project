@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./photo\ \(1\).jpg");
+    background-size: cover;
+}
+.menu_bar{
+    width: 300px;
+    height: 99vh;
+    background-color: rgba(105, 105, 105, 0.2);
+    position: absolute;
+    left: -300px;
+    transition: left 1s linear 0s;
+}
+.firstdiv{
+    display: flex;
+    height: 80px;
+    font-size: 30px;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+.firstdiv .cross{
+    margin-right: 10px;
+    font-size:25px ;
+}
+.checkbox{
+    display: none;
+}
+.seconddiv{
+    margin-top: 60px;
+    height: 400px;
+}
+.seconddiv ul li{
+    height: 50px;
+    font-size: 26px;
+    color: white;
+    margin-left: 8px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.seconddiv ul li a{
+    margin-left: 20px;
+}
+.seconddiv ul{
+    display: flex;
+    flex-direction: column;
+}
+.thirddiv{
+    position: absolute;
+    bottom: 0;
+    width: 280px;
+    height: 80px;
+}
+.thirddiv ul{
+    height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.thirddiv ul p{
+    font-size: 25px;
+    margin-bottom: 40px;
+    color:white;
+    margin-right: 20px;
+}
+.hamburger{
+    position: fixed;
+    top: 26px;
+    left:6px;
+}
+.checkbox:checked ~ .menu_bar{
+    left: 0px;
+}
+.firstdiv:hover{
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+}
+.thirddiv ul p:hover{
+   color: gray;
+    box-shadow: 2px 2px 3px white;
+    cursor: pointer;
+}
+.seconddiv ul li:hover{
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+}
+.cross:hover{
+ font-size: 20px;
+}
